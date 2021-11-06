@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Symfoni } from "./hardhat/SymfoniContext";
 import { Greeter } from './components/Greeter';
+import {Sneeber} from "./components/Sneeber";
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
             Learn React
         </a>
           <Greeter></Greeter>
+          <p>sneeber</p>
+          <Sneeber></Sneeber>
         </Symfoni>
       </header>
     </div>

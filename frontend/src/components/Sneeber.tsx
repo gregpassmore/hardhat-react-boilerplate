@@ -1,10 +1,10 @@
 import React, { useContext, useEffect, useState } from "react";
-import { GreeterContext } from "./../hardhat/SymfoniContext";
+import {SneeberContext} from "./../hardhat/SymfoniContext";
 
 interface Props {}
 
-export const Greeter: React.FC<Props> = () => {
-  const greeter = useContext(GreeterContext);
+export const Sneeber: React.FC<Props> = () => {
+  const greeter = useContext(SneeberContext);
   const [message, setMessage] = useState("");
   const [inputGreeting, setInputGreeting] = useState("");
   useEffect(() => {
